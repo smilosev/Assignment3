@@ -1,0 +1,39 @@
+.side-bar {
+    height: 100%;
+    z-index: 200;
+    background: lightblue;
+    position: fixed;
+    width: 70%;
+    top: 0;
+    left: 0;
+    max-width: 400px;
+}
+
+.side-bar ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+}
+
+.side-bar a {
+    text-decoration: none;
+    color: purple;
+    font-size: 1.5rem;
+}
+
+.side-bar a:hover, .side-bar a:active {
+   color: green; 
+}
+
+
+.side-bar li {
+    margin: 0.5rem 0;
+}
+
+@media(min-width: 601px) {
+    .side-bar {
+        display: none;
+    }
+}
