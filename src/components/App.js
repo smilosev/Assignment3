@@ -6,6 +6,7 @@ import Toolbar from "./Toolbar";
 import SideDrawer from './SideDrawer';
 import BackDrop from './BackDrop';
 import { Route, NavLink, HashRouter } from "react-router-dom";
+import Messages from './Messages'
 
 class App extends React.Component {	
 	state = {
@@ -31,11 +32,11 @@ class App extends React.Component {
 		}
 		return (
 			<div>
-			
 				<Toolbar drawerToggleHandler={this.drawerToggleHandler}/>
 				{sideDrawer}
 				{backDrop}
-				<MessageForm />
+				<MessageForm/>
+				<Messages/>
 			</div>
 		);
 	}

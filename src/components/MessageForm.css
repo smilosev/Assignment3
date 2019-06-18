@@ -11,9 +11,16 @@ body{
     border-radius: 70% 
 }
 
+.btn-default {
+    background: lightblue;
+    margin: 10px;
+    border-radius: 25% 
+}
+
 .input-box {
     height: 50px;
     width: 150px;
+    text-align: center;
 }
 
 .add-btn{
@@ -22,6 +29,15 @@ body{
     height: 30px;
     margin-left: 10px;
     
+}
+
+.text-left {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.text-pad {
+    margin-top: 5px;
 }
 .app-title{
     text-align: center;
